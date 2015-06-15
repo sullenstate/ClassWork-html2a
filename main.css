@@ -30,6 +30,7 @@ table.stats td {
 
 table.bar div {
     background-color: dodgerblue;
+    border-radius: 0px 4px 4px 0px;
     color: white;
     padding: 0px 10px;
     font-weight: lighter;

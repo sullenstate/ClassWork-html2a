@@ -1,1 +1,46 @@
 /* ADD YOUR STYLES HERE */
+table.data {
+    width: 100%;
+}
+
+table.data tr {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: lightgray;
+}
+
+table.stats td {
+    padding: 20px;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: lightgrey;
+}
+
+.number {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.label {
+    font-size: small;
+    color: lightgrey;
+}
+
+table.bar div {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0px 10px;
+    font-weight: lighter;
+}
+
+table.bar td {
+    width: 600px;
+}
+
+table.bar th {
+    /* width: 25%; */
+    text-align: right;
+    padding: 0 10px;
+}

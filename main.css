@@ -51,7 +51,7 @@ table.bar th {
     padding: 0 10px;
 }
 
-.lightbox-background {
+/*.lightbox-background {
   position: fixed;
   background-color: grey;
   width: 100%;
@@ -86,4 +86,14 @@ table.bar th {
 .button a {
     color: white;
     text-decoration: none;
+}
+*/
+
+.media-img {
+  float: left;
+  padding: 0 15px;
+}
+
+.media-block {
+	overflow: hidden;
 }

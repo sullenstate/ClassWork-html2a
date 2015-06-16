@@ -4,23 +4,18 @@
 	box-sizing: border-box;
 }
 
-table.data {
+.data {
     width: 100%;
 }
 
-table.data tr {
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    border-bottom-color: lightgray;
+.grey-bottom-border tr, .grey-bottom-border td {
+    border-bottom: thin solid lightgray;
 }
 
-table.stats td {
+.stats td {
     padding: 20px;
     text-align: center;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-width: thin;
-    border-color: lightgrey;
+    border-top: thin solid lightgrey;
 }
 
 .number {
@@ -33,7 +28,7 @@ table.stats td {
     color: lightgrey;
 }
 
-table.bar div {
+.bar div {
     background-color: dodgerblue;
     border-radius: 0px 4px 4px 0px;	
     color: white;
@@ -41,12 +36,11 @@ table.bar div {
     font-weight: lighter;
 }
 
-table.bar td {
+.bar td {
     width: 600px;
 }
 
-table.bar th {
-    /* width: 25%; */
+.bar th {
     text-align: right;
     padding: 0 10px;
 }
@@ -86,8 +80,7 @@ table.bar th {
 .button a {
     color: white;
     text-decoration: none;
-}
-*/
+}*/
 
 .media-img {
   float: left;
